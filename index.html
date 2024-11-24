@@ -1,0 +1,46 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="Guess My Number!">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="./img/Gameplay.png">
+  <meta property="og:image:alt" content="Screenshot showing the Guessing Game gameplay.">
+
+  <link rel="icon" type="image/png" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#222222">
+</head>
+
+<body>
+<header>
+  <h1>Guess My Number!</h1>
+  <p class="between">(Between 1 and 20)</p>
+  <button class="btn again">Again!</button>
+  <div class="number">?</div>
+</header>
+<main>
+  <section class="left">
+    <input type="number" class="guess" />
+    <button class="btn check">Check!</button>
+  </section>
+  <section class="right">
+    <p class="message"></p>
+    <p class="label-score">💯 Score: <span class="score"></span></p>
+    <p class="label-highscore">
+      🥇 Highscore: <span class="highscore">0</span>
+    </p>
+  </section>
+</main>
+<script src="./js/app.js"></script>
+</body>
+
+</html>
